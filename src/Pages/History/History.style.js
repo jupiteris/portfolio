@@ -6,6 +6,9 @@ export const Section = styled.section`
 
 export const Career = styled.div`
   margin-bottom: 2em;
+  :last-child {
+    margin-bottom: 0px;
+  }
   p:first-child::before {
     content: "♦";
     color: #ffc857;

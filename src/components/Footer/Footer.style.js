@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 2em 0 0;
-  margin-top: 2em;
   color: #cebbc9;
 `;
 
