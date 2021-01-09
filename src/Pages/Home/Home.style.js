@@ -9,7 +9,7 @@ export const Section = styled.section`
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  padding: 120px 0;
+  padding: 120px 0px 0px;
 
   h1 {
     color: #ffc857;

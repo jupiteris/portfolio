@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ a {
   position: relative;
 }
 .line span::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 0.1em;
   width: 50%;

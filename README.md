@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/25850598/103984246-11713a00-5187-11eb-81a1-898a2fc088ab.png)
+![image](https://user-images.githubusercontent.com/55789071/104095128-94d97b00-52ae-11eb-848e-f423f3289516.png)
 
 ## ⚒ Installation & Set Up
 

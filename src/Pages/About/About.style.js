@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.section`
   display: flex;
+  padding-top: 120px;
 `;
 
 export const AboutMe = styled.div`
@@ -29,11 +30,6 @@ export const AboutMe = styled.div`
 
 export const Left = styled.div`
   margin-bottom: 2em;
-
-  p:nth-child(4) {
-    margin-bottom: 1.5em;
-  }
-
   p + p {
     margin-top: 1em;
   }
@@ -53,13 +49,12 @@ export const Ul = styled.ul`
   padding: 0;
   margin: 20px 0 0;
   li {
-    position: relative;
+    display: flex;
+    align-items: baseline;
     margin: 0 0 10px;
     padding-left: 20px;
   }
-  li::before {
-    content: '▹';
-    position: absolute;
+  li > .icon {
     color: #ffc857;
     left: 0;
     top: 50%;

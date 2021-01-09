@@ -28,17 +28,20 @@ const NavbarHeader = () => {
                 <a href="#about">About</a>
               </li>
               <li>
+                <a href="#history">History</a>
+              </li>
+              {/* <li>
                 <a href="#" rel="noopener noreferrer">
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#work">Work</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   rel="noopener noreferrer"
@@ -47,7 +50,7 @@ const NavbarHeader = () => {
                 >
                   Resume
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Div>
         </NavContainer>

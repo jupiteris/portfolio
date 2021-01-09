@@ -10,6 +10,10 @@ export const me = {
   city: "Zhigulevsk",
   state: "Samarskaia OBL",
   zipCode: 445350,
+  education: {
+    degree: "Bachelor’s degree (“Engineer Bachelor”)",
+    address: "SAMARA UNIVERSITY, Samara, 443086, Russia",
+  },
 };
 
 export const contact = {
@@ -17,14 +21,65 @@ export const contact = {
   body: "Hi, Andrey",
 };
 
-export const skills = ["javascript", "React", "Node", "Express"];
+export const skills = [
+  "javascript",
+  "React",
+  "Vue",
+  "Node",
+  "Express",
+  "D3.js",
+  "python",
+  "Django",
+  "Stripe",
+  "Paypal",
+  "Slack",
+  "Jira",
+  "Azure",
+  "Gooogle APIs",
+  "AWS Lambda",
+  "Heroku",
+  "Godaddy",
+  "Digital Ocean",
+  "GCP",
+  "Netlify",
+  "MongoDB",
+  "Mysql",
+  "Postgres",
+  "Amplitude",
+  "Segment.io",
+  "Firebase Cloud Function",
+  "Firebase FireStore",
+  "WebRTC",
+  "Socket.io",
+  "Highchart",
+  "Amchart",
+  "Rechart",
+  "Google Chart",
+];
+
+export const histories = [
+  {
+    title: "Web App Development",
+    position:
+      "Full stack Developer (Node & React & Firebase & GCP & Azure & Slack & Stripe)",
+    company: "Actagan(USA)",
+    period: "2019.8–2020.6",
+  },
+  {
+    title: "Web App Development",
+    position: "Frontend Developer (React)",
+    company: "Ignacio Garino (Uruguay)",
+    period: "2020.6–2020.12",
+  },
+];
 
 export const aboutMe = [
   "I'm a Russian software architect and full-stack developer, with a strong attitude to Growth Hacking.",
-  "I'm graduated in Computer Science, and I have more than 7 years of experience in web development. I am familiar with Frontend/Backend development and have skills in DevOps as well",
-  "Of course, the above skills are based on my great communication/honest/patience",
-  "I prefer a long term project. But the part-time project is also okay.",
-  "In most development, I try to make it light/scalability/security/maintainability and keep clear logic",
+  "I'm graduated in Computer Science, and I have more than 7 years of experience in web development. I am familiar with Frontend/Backend development and have skills in DevOps as well.",
+  "Of course, the above skills are based on my great communication/honest/patience.",
+  "I prefer a long term project.",
+  "In most development, I try to make it light/scalability/security/maintainability and keep clear logic.",
+  "I always keep the learning of the trending web skills such as the PWA, SPA, Motion UI, AMP, Automate Testing, Serverless, Push Notification, etc.",
 ];
 
 export const projects = [

@@ -1,9 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 2em 0;
-  margin-top: 3.5em;
-  position: relative;
+  padding-top: 120px;
   .show {
     position: absolute;
     left: 50%;
@@ -81,5 +79,3 @@ export const Icons = styled.div`
     font-size: 1.75rem;
   }
 `;
-
-// export const Tools = styled.div``;

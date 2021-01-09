@@ -16,10 +16,10 @@ const About = () => {
   } = me;
   return (
     <>
-      <Section>
+      <Section id="about">
         <Container>
           <Placeholder title="About Me"></Placeholder>
-          <AboutMe id="about">
+          <AboutMe>
             <Left>
               <p>
                 Hello! I'm {firstName}, a {shortTitle} based in{" "}
@@ -28,13 +28,16 @@ const About = () => {
               {aboutMe && aboutMe.length
                 ? aboutMe.map((a, index) => <p key={index}>{a}</p>)
                 : ""}
-              <p>
-                Here are a few technologies I've been working with recently:
-              </p>
+              <p>Here are a few technologies I've been working with:</p>
 
               <Ul>
                 {skills && skills.length
-                  ? skills.map((skill, index) => <li key={index}>{skill}</li>)
+                  ? skills.map((skill, index) => (
+                      <li key={index}>
+                        <span className="icon">▹</span>
+                        <span>{skill}</span>
+                      </li>
+                    ))
                   : ""}
               </Ul>
             </Left>

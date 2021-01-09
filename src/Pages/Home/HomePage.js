@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../../components/Container";
 import { Main, Section } from "./Home.style";
 import About from "../About/About";
+import History from "../History/History";
 import Work from "../Projects/Work";
 import Contact from "../Contact/Contact";
 import MailTo from "../../components/MailTo/MailTo";
@@ -31,6 +32,7 @@ const Home = () => {
           </Container>
         </Section>
         <About />
+        <History />
         <Work />
         <Contact />
         <Footer />
