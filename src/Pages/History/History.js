@@ -15,12 +15,15 @@ const History = () => {
                 const { title, position, company, period } = history;
                 return (
                   <Career key={index}>
-                    <p>{period}</p>
-                    <p>
+                    <div>
+                      <span className="period">♦</span>
+                      <span>{period}</span>
+                    </div>
+                    <div>
                       <span>{title}</span>
                       <span>{position}</span>
                       <span>{company}</span>
-                    </p>
+                    </div>
                   </Career>
                 );
               })
