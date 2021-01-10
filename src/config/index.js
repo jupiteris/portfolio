@@ -84,26 +84,59 @@ export const aboutMe = [
 
 export const projects = [
   {
-    id: 0,
+    title: "Employee Management System",
+    description:
+      "Made by React & Node & Express & Firebase. It is integrating various Thrid Party Apps such as Google, Azure, Stripe, Slack. And hosted By GCP.",
+    image: "",
+    link: "https://dev.actagan.com/",
+    source: "",
+  },
+  {
+    title: "React Material UI Dashboard",
+    description: "React Dashboard using the material ui component and design.",
+    image: "",
+    link: "https://laughing-davinci-6371da.netlify.app/",
+    source: "",
+  },
+  {
+    title: "Fancy Carousel",
+    description: "Using React. Draggable && Mouse scrolling is possible.",
+    image: "",
+    link: "https://hardcore-shannon-e6f6e9.netlify.app/",
+    source: "",
+  },
+  {
+    title: "Vue Babel Forum",
+    description: "load the contents and Make those grid. View individually.",
+    image: "",
+    link: "https://dazzling-swanson-17526a.netlify.app/#/",
+    source: "",
+  },
+
+  {
+    title: "React Swipeable Carousel",
+    description: "React Swipeable Carousel. Selectable, Cursor drag.",
+    image: "",
+    link: "https://stoic-bose-312440.netlify.app/",
+    source: "",
+  },
+  {
+    title: "TV Booking",
+    description:
+      "Book TV By considering the various conditions. Single Page App & Fully Responsive.",
+    image: "",
+    link: "https://reverent-bhabha-fc5300.netlify.app/",
+    source: "",
+  },
+  {
     title: "Monster Rolodex",
     description:
       "Search and filter through this monsters using the search bar. It is quick and responsive.",
     image:
       "https://res.cloudinary.com/codeg0d/image/upload/v1597534988/portfolio%20website/rolodex_mdpytf.jpg",
     link: "https://terieyenike.github.io/rolodex/",
-    source: "test",
   },
   {
-    id: 1,
-    title: "Search Pexels Photos",
-    description:
-      "This project gives the user the opportunity to search the Pexels photo library. It also uses the Pexels API search endpoint to fetch its data.",
-    image:
-      "https://res.cloudinary.com/codeg0d/image/upload/v1597534988/portfolio%20website/pexels_dugnt8.jpg",
-    link: "https://pexels.netlify.app",
-  },
-  {
-    id: 2,
     title: "Beer Lovers",
     description:
       "Get the hoppiness and alcoholic levels of each beer from its Punk API.",
@@ -112,7 +145,6 @@ export const projects = [
     link: "https://beerlovers.netlify.app/",
   },
   {
-    id: 3,
     title: "Light/dark theme",
     description: "Light/dark theme feature for this one-page website.",
     image:
@@ -120,16 +152,6 @@ export const projects = [
     link: "https://reefit.netlify.app",
   },
   {
-    id: 4,
-    title: "Subscribe to email list",
-    description:
-      "Landing page where users can enter their details to subscribe to a newsletter. This app makes use of MailChimp API.",
-    image:
-      "https://res.cloudinary.com/codeg0d/image/upload/v1597534987/portfolio%20website/newsletter_kxgye7.jpg",
-    link: "https://protected-mesa-35829.herokuapp.com/",
-  },
-  {
-    id: 5,
     title: "Infinite Scroll",
     description:
       "Continuously load a new photo. This application use the Unsplash API to fetch random photos.",
@@ -137,17 +159,7 @@ export const projects = [
       "https://res.cloudinary.com/codeg0d/image/upload/v1597534988/portfolio%20website/unsplash_j0rzam.jpg",
     link: "https://infinit.netlify.app/",
   },
-
   {
-    id: 6,
-    title: "Vue Unsplash",
-    description: "You can search collection of photos from the Unsplash API.",
-    image:
-      "https://res.cloudinary.com/codeg0d/image/upload/v1597534988/portfolio%20website/unsplash-vue_burtlr.jpg",
-    link: "https://unsplash-vue.netlify.app/",
-  },
-  {
-    id: 7,
     title: "Quote Generator",
     description:
       "Want to know about quotes from the past? Use this simple app to boost your day.",
@@ -156,7 +168,6 @@ export const projects = [
     link: "https://terieyenike.github.io/quotegenerator/",
   },
   {
-    id: 8,
     title: "Loan calculator",
     description:
       "Loan calculator helps you calculate your yield based on the number of years you plan to repay back the money.",
@@ -165,15 +176,6 @@ export const projects = [
     link: "https://loancalclator.netlify.app/",
   },
   {
-    id: 9,
-    title: "User form",
-    description: "Type check your user form with Regex.",
-    image:
-      "https://user-images.githubusercontent.com/25850598/103657666-769c1400-4f6a-11eb-8c89-eb2fcf891851.png",
-    link: "https://useerform.netlify.app/",
-  },
-  {
-    id: 10,
     title: "Daily Todo",
     description: "Delete, filter, and add your daily todos.",
     image:
