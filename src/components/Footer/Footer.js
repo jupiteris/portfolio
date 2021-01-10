@@ -2,18 +2,11 @@
 import React from "react";
 import Container from "../Container/";
 import { Section, Div, ThirdColumn, Paragraph } from "./Footer.style";
-import {
-  FiTwitter,
-  FiLinkedin,
-  FiCodepen,
-  FiGithub,
-  FiInstagram,
-} from "react-icons/fi";
 import { me } from "../../config";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-  const { firstName, lastName, nickName } = me ?? {};
+  const { firstName, lastName, nickName, socialLinks } = me ?? {};
   return (
     <>
       <Section>
@@ -28,31 +21,18 @@ const Footer = () => {
             <Paragraph>Let's be friends</Paragraph>
           </Div>
           <ThirdColumn>
-            <a href="" rel="noopener noreferrer" aria-label="github">
-              <span>
-                <FiGithub />
-              </span>
-            </a>
-            <a href="" rel="noopener noreferrer" aria-label="twitter">
-              <span>
-                <FiTwitter />
-              </span>
-            </a>
-            <a href="" rel="noopener noreferrer" aria-label="linkedin">
-              <span>
-                <FiLinkedin />
-              </span>
-            </a>
-            <a href="" rel="noopener noreferrer" aria-label="codepen">
-              <span>
-                <FiCodepen />
-              </span>
-            </a>
-            <a href="" rel="noopener noreferrer" aria-label="instagram">
-              <span>
-                <FiInstagram />
-              </span>
-            </a>
+            {socialLinks && socialLinks.length
+              ? socialLinks.map(({ name, icon, link }, index) => (
+                  <a
+                    href={link}
+                    rel="noopener noreferrer"
+                    aria-label={name}
+                    key={index}
+                  >
+                    <img src={icon ?? ""} alt={name ?? ""} />
+                  </a>
+                ))
+              : ""}
           </ThirdColumn>
         </Container>
       </Section>

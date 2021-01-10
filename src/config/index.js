@@ -14,6 +14,23 @@ export const me = {
     degree: "Bachelor’s degree (“Engineer Bachelor”)",
     address: "SAMARA UNIVERSITY, Samara, 443086, Russia",
   },
+  socialLinks: [
+    {
+      name: "github",
+      icon: "/static/icons/github.png",
+      link: "https://github.com/jupiteris",
+    },
+    {
+      name: "stackoverflow",
+      icon: "/static/icons/stackoverflow.png",
+      link: "https://stackoverflow.com/users/11986869/jupiter",
+    },
+    // {
+    //   name: "freelancer",
+    //   icon: "/static/icons/freelancer.png",
+    //   link: "https://www.freelancer.com/u/andrey0savelev",
+    // },
+  ],
 };
 
 export const contact = {

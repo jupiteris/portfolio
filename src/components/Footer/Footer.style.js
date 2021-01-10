@@ -18,11 +18,12 @@ export const ThirdColumn = styled.div`
   @media screen and (min-width: 768px) {
     float: right;
     a + a {
-      margin-left: 2em;
+      margin-left: 1.5em;
     }
 
-    a > span {
-      font-size: 1.2rem;
+    a > img {
+      width: 25px;
+      height: 25px;
     }
   }
 `;
