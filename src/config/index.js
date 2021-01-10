@@ -145,13 +145,6 @@ export const projects = [
     link: "https://beerlovers.netlify.app/",
   },
   {
-    title: "Light/dark theme",
-    description: "Light/dark theme feature for this one-page website.",
-    image:
-      "https://res.cloudinary.com/codeg0d/image/upload/v1597534987/portfolio%20website/light_dark_fobcuh.jpg",
-    link: "https://reefit.netlify.app",
-  },
-  {
     title: "Infinite Scroll",
     description:
       "Continuously load a new photo. This application use the Unsplash API to fetch random photos.",
