@@ -38,9 +38,9 @@ const NavbarHeader = () => {
               <li>
                 <a href="#work">Work</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#contact">Contact</a>
-              </li>
+              </li> */}
               {/* <li>
                 <a
                   href="#"

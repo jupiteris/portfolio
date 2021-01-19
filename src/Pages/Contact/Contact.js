@@ -17,9 +17,9 @@ const Contact = () => {
               I am open to opportunities, collaboration, and remote work. Let's
               discuss and definitely say "Hello" in my inbox.
             </p>
-            <MailTo email={email} subject={subject} body={body}>
+            {/* <MailTo email={email} subject={subject} body={body}>
               Let's Talk
-            </MailTo>
+            </MailTo> */}
           </Div>
         </Container>
       </Section>

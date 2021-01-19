@@ -26,9 +26,9 @@ const Home = () => {
               in building applications and using technologies making websites
               accessible for all.
             </p>
-            <MailTo email={email} subject={subject} body={body}>
+            {/* <MailTo email={email} subject={subject} body={body}>
               Get in Touch
-            </MailTo>
+            </MailTo> */}
           </Container>
         </Section>
         <About />
