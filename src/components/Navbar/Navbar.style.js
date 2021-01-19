@@ -15,6 +15,7 @@ export const NavContainer = styled.div`
     overflow: hidden;
     transition: all 0.3s ease;
     margin-top: 1.5em;
+    opacity: 0;
   }
 
   li + li {
