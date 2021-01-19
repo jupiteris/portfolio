@@ -34,7 +34,7 @@ const Home = () => {
         <About />
         <History />
         <Work />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </Main>
     </>
