@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Main>
         <Section id="home">
-          <Container>
+          <Container className="welcome">
             <h1>Hey, I'm</h1>
             <h2>{firstName + " " + lastName ?? nickName}.</h2>
             <h3>I build things for the web.</h3>
