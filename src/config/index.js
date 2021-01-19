@@ -6,10 +6,13 @@ export const me = {
   shortTitle: "web developer",
   email: "jupiter.programmer@gmail.com",
   avatar: "/static/images/me.jpg",
+  logo: "", // "/static/images/logo.jpg",
   country: "Russia",
   city: "Zhigulevsk",
   state: "Samarskaia OBL",
   zipCode: 445350,
+  resume:
+    "https://drive.google.com/file/d/1G9BO1qrzhIu4JqOIVEZ0PVLyy10kO5re/view?usp=sharing",
   education: {
     degree: "Bachelor’s degree (“Engineer Bachelor”)",
     address: "SAMARA UNIVERSITY, Samara, 443086, Russia",
@@ -53,8 +56,8 @@ export const skills = [
   "Jira",
   "GCP",
   "Gooogle APIs",
-  "Firebase Cloud Function",
-  "Firebase FireStore",
+  "Cloud Function",
+  "FireStore",
   "Google Chart",
   "Azure",
   "AWS Lambda",
@@ -80,22 +83,22 @@ export const histories = [
     position:
       "Full stack Developer (Node & React & Firebase & GCP & Azure & Slack & Stripe)",
     company: "Actagan(USA)",
-    period: "2019.8–2020.6",
+    period: "2019.8 – 2020.6",
   },
   {
     title: "Web App Development",
     position: "Frontend Developer (React)",
     company: "Ignacio Garino (Uruguay)",
-    period: "2020.6–2020.12",
+    period: "2020.6 – 2020.12",
   },
 ];
 
 export const aboutMe = [
   "I'm a Russian software architect and full-stack developer, with a strong attitude to Growth Hacking.",
-  "I'm graduated in Computer Science, and I have more than 7 years of experience in web development. I am familiar with Frontend/Backend development and have skills in DevOps as well.",
-  "Of course, the above skills are based on my great communication/honest/patience.",
+  "I'm graduated in Computer Science, and I have more than 7 years of experience in web development. I am familiar with Frontend & Backend development and have skills in DevOps as well.",
+  "The above skills are based on my great communication, honest, patience.",
   "I prefer a long term project.",
-  "In most development, I try to make it light/scalability/security/maintainability and keep clear logic.",
+  "In most development, I try to make it light, scalability, security, maintainability and keep clear logic.",
   "I always keep the learning of the trending web skills such as the PWA, SPA, Motion UI, AMP, Automate Testing, Serverless, Push Notification, etc.",
 ];
 

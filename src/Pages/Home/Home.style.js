@@ -34,7 +34,7 @@ export const Section = styled.section`
   p {
     margin-bottom: 3em;
     font-size: 1.125rem;
-    max-width: 500px;
+    max-width: 700px;
   }
 
   a {

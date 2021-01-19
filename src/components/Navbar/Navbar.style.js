@@ -14,7 +14,7 @@ export const NavContainer = styled.div`
     height: 0;
     overflow: hidden;
     transition: all 0.3s ease;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
     opacity: 0;
   }
 
@@ -72,7 +72,15 @@ export const NavHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .logo {
+  a {
+    display: flex;
+  }
+  a > img {
+    width: 80px;
+    height: 55px;
+    border-radius: 50%;
+  }
+  a > h1 {
     color: #ffc857;
     font-weight: 600;
     font-size: 2rem;

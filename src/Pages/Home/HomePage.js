@@ -22,8 +22,8 @@ const Home = () => {
             <h2>{firstName + " " + lastName ?? nickName}.</h2>
             <h3>I build things for the web.</h3>
             <p>
-              I'm a web developer based in {city + ", " + country} specialising
-              in building applications and using technologies making websites
+              I'm a web developer ✨ based in {city + ", " + country} versed in
+              building applications and using technologies making websites
               accessible for all.
             </p>
             {/* <MailTo email={email} subject={subject} body={body}>

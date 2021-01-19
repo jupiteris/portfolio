@@ -6,6 +6,7 @@ import { me } from "../../config";
 
 const NavbarHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { logo, resume } = me ?? {};
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -17,7 +18,11 @@ const NavbarHeader = () => {
           <Div>
             <NavHeader>
               <a href="#home">
-                <h1 className="logo">{me?.firstName ?? "Jupiter"}</h1>
+                {logo ? (
+                  <img src={logo} alt="jupiter" />
+                ) : (
+                  <h1>{"</>" ?? "Jupiter"}</h1>
+                )}
               </a>
               <button type="button" className="nav-btn" onClick={handleToggle}>
                 <FiAlignRight className="nav-icon" />
@@ -41,16 +46,18 @@ const NavbarHeader = () => {
               {/* <li>
                 <a href="#contact">Contact</a>
               </li> */}
-              {/* <li>
-                <a
-                  href="#"
-                  rel="noopener noreferrer"
-                  // target="_blank"
-                  className="resume"
-                >
-                  Resume
-                </a>
-              </li> */}
+              {resume && (
+                <li>
+                  <a
+                    href={resume}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+              )}
             </ul>
           </Div>
         </NavContainer>

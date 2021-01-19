@@ -16,7 +16,7 @@ const History = () => {
                 return (
                   <Career key={index}>
                     <div>
-                      <span className="period">♦</span>
+                      <span className="period">⭐</span>
                       <span>{period}</span>
                     </div>
                     <div>

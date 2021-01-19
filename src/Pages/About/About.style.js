@@ -9,6 +9,9 @@ export const AboutMe = styled.div`
   img {
     transition: all 0.3s ease;
     border-radius: 4px;
+    width: 360px;
+    height: 360px;
+    border: 3px solid #ffc857;
   }
   img:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
