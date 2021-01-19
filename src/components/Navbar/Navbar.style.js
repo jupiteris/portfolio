@@ -51,6 +51,11 @@ export const NavContainer = styled.div`
       margin: 0 0 0 2em;
     }
   }
+  @media screen and (max-width: 1024px) {
+    .nav-links {
+      background: #040f16;
+    }
+  }
 `;
 export const Div = styled.div`
   .resume {
@@ -70,6 +75,7 @@ export const NavHeader = styled.div`
     color: #ffc857;
     font-weight: 600;
     font-size: 2rem;
+    cursor: pointer;
   }
   .nav-btn {
     background: transparent;
