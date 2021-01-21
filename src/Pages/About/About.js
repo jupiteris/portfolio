@@ -28,10 +28,12 @@ const About = () => {
                   : ""}
               </Ul>
             </Left>
-            <img
-              src={avatar ?? ""}
-              alt={firstName + " " + lastName ?? nickName}
-            />
+            <div className="snake">
+              <img
+                src={avatar ?? ""}
+                alt={firstName + " " + lastName ?? nickName}
+              />
+            </div>
           </AboutMe>
         </Container>
       </Section>

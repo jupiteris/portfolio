@@ -83,13 +83,13 @@ export const histories = [
     position:
       "Full stack Developer (Node & React & Firebase & GCP & Azure & Slack & Stripe)",
     company: "Actagan(USA)",
-    period: "2019.8 – 2020.6",
+    period: "2019.11 – 2020.6",
   },
   {
     title: "Web App Development",
     position: "Frontend Developer (React)",
     company: "Ignacio Garino (Uruguay)",
-    period: "2020.6 – 2020.12",
+    period: "2020.9 – 2020.1",
   },
 ];
 

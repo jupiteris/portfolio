@@ -6,14 +6,59 @@ export const Section = styled.section`
 `;
 
 export const AboutMe = styled.div`
-  img {
+  @-webkit-keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  .snake {
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 372px;
+    height: 372px;
+  }
+  .snake::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #b7a7ff;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#2e00ff, #917af9);
+    -webkit-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+  }
+  .snake::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    background: white;
+    border-radius: 5px;
+  }
+  .snake img {
     transition: all 0.3s ease;
-    border-radius: 4px;
+    border-radius: 5px;
     width: 360px;
     height: 360px;
-    border: 3px solid #ffc857;
+    margin: 6px;
   }
-  img:hover {
+  .snake img:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
     transform: scale(1.02);
   }
@@ -24,8 +69,9 @@ export const AboutMe = styled.div`
   }
   @media screen and (min-width: 1024px) {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    img {
+    .snake img {
       align-self: flex-start;
     }
   }
