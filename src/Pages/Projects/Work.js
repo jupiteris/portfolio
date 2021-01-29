@@ -12,6 +12,17 @@ class Work extends React.Component {
     expanded: false,
   };
 
+  componentDidMount = () => {
+    const button = document.querySelector(".show");
+
+    button &&
+      button.addEventListener("mousemove", (e) => {
+        const { x, y } = button.getBoundingClientRect();
+        button.style.setProperty("--x", e.clientX - x);
+        button.style.setProperty("--y", e.clientY - y);
+      });
+  };
+
   showMore = () => {
     this.state.itemsToShow === 6
       ? this.setState({ itemsToShow: projects.length, expanded: true })
@@ -63,9 +74,11 @@ class Work extends React.Component {
                   );
                 })}
             </Div>
-            <a onClick={this.showMore} className="show">
-              {this.state.expanded ? "Show Less" : "Show More"}
-            </a>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <a onClick={this.showMore} className="show">
+                {this.state.expanded ? "Show Less" : "Show More"}
+              </a>
+            </div>
           </Container>
         </Section>
       </>

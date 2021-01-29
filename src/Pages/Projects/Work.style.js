@@ -3,15 +3,29 @@ import styled from "styled-components";
 export const Section = styled.section`
   padding-top: 120px;
   .show {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     margin-top: 1.5em;
     border: 1px solid #ffc857;
     padding: 0.75em 1em;
     color: #ffc857;
-    transition: all 0.3s ease;
     cursor: pointer;
+    overflow: hidden;
+    min-width: 160px;
+    min-height: 68px;
+  }
+  .show::after {
+    content: "";
+    position: absolute;
+    top: calc(var(--y, 0) * 1px - 50px);
+    left: calc(var(--x, 0) * 1px - 50px);
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(white, #3984ff00 70%);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .show:hover::after {
+    opacity: 0.4;
   }
 `;
 
