@@ -23,11 +23,11 @@ export const me = {
       icon: "/static/icons/github.png",
       link: "https://github.com/jupiteris",
     },
-    {
-      name: "stackoverflow",
-      icon: "/static/icons/stackoverflow.png",
-      link: "https://stackoverflow.com/users/11986869/jupiter",
-    },
+//     {
+//       name: "stackoverflow",
+//       icon: "/static/icons/stackoverflow.png",
+//       link: "https://stackoverflow.com/users/11986869/jupiter",
+//     },
     // {
     //   name: "freelancer",
     //   icon: "/static/icons/freelancer.png",
