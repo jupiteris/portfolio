@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/55789071/104095128-94d97b00-52ae-11eb-848e-f423f3289516.png)
-
 ## ⚒ Installation & Set Up
 
 1. Install React
